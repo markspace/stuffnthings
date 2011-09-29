@@ -1,0 +1,10 @@
+#!/bin/bash
+
+time=`date +%s`
+
+echo "EpochWeek  = " $(($time/(24*60*60*7)))
+echo "EpochDay  = " $(($time/(24*60*60)))
+echo "EpochHour = " $(($time/(60*60)))
+echo "EpochMin  = " $(($time/(60)))
+echo "EpochSec  = " $time
+
